@@ -1,2 +1,3 @@
-# log2.github.io
-Learning on Graphs and Geometry @ Oxford
+# Decentralised Finance Recsearch Group
+## Oxford-Man Institute
+## University of Oxford

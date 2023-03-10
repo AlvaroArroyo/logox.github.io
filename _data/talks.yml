@@ -1,0 +1,117 @@
+- type: Future Talks
+  members:
+
+
+    - speaker: Omer Suleman  (Haruko)
+      date: March 8, 2023
+      title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
+      abstract: "Automated Market Maker (AMM) platforms have become a core pillar within the cryptocurrency ecosystem, executing trades according to code and mathematical models that are publicly available and without the need for human intervention. The - code is law - premise has provided considerable economic benefits but has also produced new forms of market vulnerabilities through improperly implemented code or mathematical algorithms with unexpected behaviours. We present several such instances identified by Haruko during a Spring 2022 analysis of the code base and White/Yellow Papers of several prominent AMMs, with primary focus on the Platypus (http://platypus.finance) AMM developed on the Avalanche blockchain. Platypus uses -one sided liquidity-, a novel mathematical approach distinct from the more common -Constant Function- AMMs. We review this framework, including its fees, incentives, and anti-arbitrage penalties, before demonstrating that, despite such penalties, there exists an arbitrage vulnerability. We also identify, through numerical methods, the minimum swap fees required to block this arbitrage route – this result allowed the developers to address this vulnerability in the short term, until an update to platform's arbitrage protection can be developed."
+      bio: ""
+      link: "https://www.haruko.io/blogs/defi-automated-market-makers"
+      link2: "https://www.haruko.io/blogs/helping-platypus-stay-arbitrage-free"
+    - speaker: Heimbach Lioba (ETH Zurich)
+      date: April 19, 2023
+      title: "Turmoil in DeFi Lending Markets"
+      abstract: "The merge marked the Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS). However, ahead of the merge a fraction of the Ethereum ecosystem announced plans of continuing with a PoW chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow. In November 2022, Avi Eisenberg performed an attack on AAVE. Eisenberg attempted to short the CRV token by using funds borrowed on the protocol to artificially deflate the value of CRV. While the attack was ultimately unsuccessful, it left the AAVE community scared and even raised question marks regarding the feasibility of large lending platforms under decentralized governance. Both events expose a predicament of DeFi lending protocols: limit the scope or compromise on 'decentralization'."
+      bio: "Distributed Computing Group at ETH."
+      link: "https://arxiv.org/abs/2302.04068"
+    - speaker: Bhaskar Krishnamachari (USC Viterbi School of Engineering)
+      date: April 26, 2023
+      title: "Dynamic Curves: Enhancing Decentralized Autonomous Exchanges"
+      abstract: "Cryptocurrency exchanges based on curve-based automated market makers have been a major development in decentralized finance (DeFi) because they enable efficient, secure, low-friction conversions between different cryptocurrencies. This research talk will explore the potential of dynamic AMM curves, optimal trading on such dynamic AMM curves, and the use of reinforcement learning to enhance AMMs. We will describe how dynamic curves enable autonomous exchanges to maintain a liquidity pool that continuously adjusts to the market price, and discuss how optimal trading policies can be derived for such a dynamic AMM. We will also discuss how a reinforcement learning agent can be used to optimize fees on automated market maker protocols."
+      bio: "Bhaskar Krishnamachari is a Professor of Electrical and Computer Engineering at the USC Viterbi School of Engineering. His research spans the design and evaluation of algorithms, protocols, and applications for wireless networks, distributed systems, and the internet of things. He is the co-author of more than 300 technical papers, and 3 books, that have been collectively cited more than 30,000 times. He has received best paper awards at IPSN (2004, 2010), Mobicom (2010), and VNC (2021). He is an IEEE Fellow."
+      link: "https://anrg.usc.edu/www/papers/Dynamiccurves.pdf"
+      link2: "https://ieeexplore.ieee.org/abstract/document/9805489/"
+      link3: "https://arxiv.org/abs/2211.14977"
+
+
+- type: Past Talks
+  members:
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
+      date: March 1, 2023
+      title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
+      abstract: "Uniswap is a Constant Product Market Maker built around liquidity pools, where pairs of tokens are exchanged subject to a fee that is proportional to the size of transactions. At the time of writing, there exist more than 6,000 pools associated with Uniswap v3, implying that empirical investigations on the full ecosystem can easily become computationally expensive. Thus, we propose a systematic workflow to extract and analyse a meaningful but computationally tractable sub-universe of liquidity pools. Leveraging on the 34 pools found relevant for the six-months time window January-June 2022, we then investigate the related liquidity consumption behaviour of market participants. We propose to represent each liquidity taker by a suitably constructed transaction graph, which is a fully connected network where nodes are the liquidity taker’s executed transactions, and edges contain weights encoding the time elapsed between any two transactions. We extend the NLP-inspired graph2vec algorithm to the weighted undirected setting, and employ it to obtain an embedding of the set of graphs. This embedding allows us to extract seven clusters of liquidity takers, with equivalent behavioural patters and interpretable trading preferences. We conclude our work by testing for relationships between the characteristic mechanisms of each pool, i.e. liquidity provision, consumption, and price variation. We introduce a related ideal crypto law, inspired from the ideal gas law of thermodynamics, and demonstrate that pools adhering to this law are healthier trading venues in terms of sensitivity of liquidity and agents’ activity. Regulators and practitioners could benefit from our model by developing related pool health monitoring tools."
+      bio: "Deborah Miori is a Dphil candidate at University of Oxford."
+      link: "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4307924"
+    - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
+      date: February 22, 2023
+      title: "Stochastic models for blockchain analysis"
+      abstract: "A blockchain is a distributed ledger maintained by achieving consensus in a P2P network. This talk focuses on the security of Proof-of-Work blockchains, more specifically on an attack called double spending. We first introduce some blockchain concepts along with a description of the Proof-of-Work protocol before setting up a mathematical model to compute the likelihood of a successful double spending attack."
+      bio: "http://pierre-olivier.goffard.me/"
+      link: ""
+ 
+    - speaker: Andre Rzym (Man Group)
+      date: February 15, 2023
+      title: "Crypto, is the Alpha worth the Pain?"
+      abstract: "We describe our experience of, and observations on, the cryptocurrency space from the perspective of a regulated investment manager. We discuss the immaturity of the space, consider the impact of high volatility, and describe how the product development process is very different to other asset classes."
+      bio: "Partner and Portfolio Manager, Man AHL."
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4124576"
+
+    - speaker: Philippe Bergault (Université Paris Dauphine)
+      date: February 8, 2023
+      title: "Liquidity Providers in Automated Market Makers: a Mean-Variance Analysis of Payoffs"
+      abstract: "We analyze the performance of Liquidity Providers (LPs) providing liquidity to different types of Automated Market Makers (AMMs). This analysis is carried out using a mean / standard deviation viewpoint à la Markowitz, though based on the PnL of LPs compared to that of agents holding coins outside of AMMs. We show that LPs tend to perform poorly in a wide variety of CFMMs under realistic market conditions. We then explore an alternative AMM design in which an oracle feeds the current market exchange rate to the AMM which then quotes a bid/ask spread. This allows us to define an efficient frontier for the performance of LPs in an idealized world with perfect information and to show that the smart use of oracles greatly improves LPs' risk / return profile, even in the case of a lagged oracle. "
+      bio: "https://sites.google.com/view/bergaultphilippe"
+      link: "https://arxiv.org/abs/2212.00336"
+
+    - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
+      date: January 25, 2023
+      title: "Decentralised Finance and Automated Market Making: Execution and Speculation"
+      abstract: "Automated market makers (AMMs) are a new prototype of trading venues which are revolutionising the way market participants interact. At present, the majority of AMMs are constant function market makers (CFMMs) where a deterministic trading function determines how markets are cleared. A distinctive characteristic of CFMMs is that execution costs are given by a closed-form function of price, liquidity, and transaction size. This gives rise to a new class of trading problems. We focus on constant product market makers and show how to optimally trade a large position in an asset and how to execute statistical arbitrages based on market signals. We employ stochastic optimal control tools to devise two strategies. One strategy is based on the dynamics of prices in competing venues and assumes constant liquidity in the AMM. The other strategy assumes that AMM prices are efficient and liquidity is stochastic. We use Uniswap v3 data to study price, liquidity, and trading cost dynamics, and to motivate the models. Finally, we perform consecutive runs of in-sample estimation of model parameters and out-of-sample liquidation and arbitrage strategies to showcase the performance of the strategies. "
+      bio: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743"
+      link: ""
+
+    - speaker: Tristan Lim (Nanyang Polytechnic)
+      date: February 1, 2023
+      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
+      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
+      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
+      link: https://arxiv.org/abs/2211.01346
+    - speaker: Agostino Capponi (Columbia University)
+      date: January 18, 2023
+      title: "The Information Content of Blockchain Fees"
+      abstract: "Trading at decentralized exchanges (DEXs) requires traders to bid blockchain fees to determine the execution priority of their orders. We employ a structural vector-autoregressive (structural VAR) model to provide evidence that DEX trades with high fees not only reveal more private information, but also respond more to public price innovations on centralized exchanges (CEXs), contributing to price discovery. Using a unique dataset of Ethereum mempool orders, we further demonstrate that high fees do not result from traders competing with each other on private or public information. Rather, our analysis lends support to the hypothesis that they bid high fees to reduce the execution risk of their orders due to blockchain congestion."
+      bio: "http://www.columbia.edu/~ac3827/"
+      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
+    - speaker: Jack Chong (University of Oxford, frigg.eco)
+      date: December 21, 2022
+      title: " An Unreal Primer on Real World Assets (RWAs)"
+      abstract: "An Unreal Primer on Real World Assets (RWAs)"
+      bio: "https://www.linkedin.com/in/jack-chong/"
+      link: 
+    - speaker: Kristof Lommers (University of Oxford, Saïd Business School)
+      date: December 14, 2022
+      title: "Market Making in NFTs"
+      abstract: "This study discusses a framework for market making in Non-Fungible Tokens (NFTs) which represent unique digital assets in a low liquidity and high price volatility environment. The market making problem differs from fungible cryptocurrencies as there is no layered orderbook structure of market depth and market makers would need to hold inventory on the other side of the trades for a non-negligible horizon. We have developed a model for prices in market making context in terms of embedded optionality of trading an NFT at either the floor or a price that is closer to the appraisal value. In order to develop the model for optionality of trading an NFT, we have defined a model on the joint price dynamics of the NFT and its corresponding floor. The price dynamics were decomposed into an intrinsic price diffusion process and jump components relating to liquidity events. Besides NFTs, the approach presented in this paper could provide insights for market making in other ”non- fungible” asset classes such as art or housing. "
+      bio: "https://www.linkedin.com/in/kristoflommers"
+      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226987
+    - speaker: Francisco Marmolejo Cossio (Harvard University)
+      date: December 7, 2022
+      title: "Differential Liquidity Provision in Uniswap V3 and Implications for Contract Design"
+      abstract: "Decentralized exchanges (DEXs) facilitate trading assets on-chain without the need of a trusted third party. Amongst these, constant function market maker DEXs such as Uniswap handle the most volume of trades between ERC-20 tokens. In Uniswap v3, liquidity providers (LPs) are given the option to differentially allocate liquidity to be used for trades that occur within specific price intervals. We formalize the profit and loss that LPs can earn in simplified trade dynamics and are able to compute optimal liquidity allocations for liquidity providers who hold fixed price trajectory beliefs. We use this tool to shed light on the design question regarding how v3 contracts should partition price space for permissible liquidity allocations. Our results suggest that a richer space of potential partitions can simultaneously benefit both LPs and traders."
+      bio: "https://www.fmarmolejo.com/"
+      link: "https://arxiv.org/abs/2209.15569"
+    - speaker: Ronnie Sircar (Princeton University)
+      date: November 30, 2022
+      title: "Cryptocurrencies, Mining & Mean Field Games"
+      abstract: "We present a mean field game model to study the question of how centralization of reward and computational power occur in Bitcoin-like cryptocurrencies. Miners compete against each other for mining rewards by increasing their computational power. This leads to a novel mean field game of jump intensity control, which we solve explicitly for miners maximizing exponential utility, and handle numerically in the case of miners with power utilities. We show that the heterogeneity of their initial wealth distribution leads to greater imbalance of the reward distribution, or a ``rich get richer'' effect. This concentration phenomenon is aggravated by a higher bitcoin mining reward, and reduced by competition. Additionally, an advantaged miner with cost advantages such as access to cheaper electricity, contributes a significant amount of computational power in equilibrium, unaffected by competition from less efficient miners. Hence, cost efficiency can also result in the type of centralization seen among miners of cryptocurrencies."
+      bio: "RONNIE SIRCAR is the Eugene Higgins Professor of Operations Research and Financial Engineering (ORFE) at Princeton University, and is affiliated with the Bendheim Center for Finance, the Program in Applied and Computational Mathematics, and the Andlinger Center for Energy and the Environment. He received his doctorate from Stanford University, and taught for three years at the University of Michigan in the Department of Mathematics. He has received continuing National Science Foundation research grants since 1998. He was a recipient of the E-Council Excellence in Teaching Award for his teaching in 2002, 2005 and 2006, and the Howard B. Wentz Jr. Junior Faculty Award in 2003. His research interests center on Financial Mathematics, stochastic volatility models, energy markets and exhaustible resources, credit risk, asymptotic and computational methods, portfolio optimization and stochastic control problems, and stochastic differential games. He is a co-author of the book 'Multiscale Stochastic Volatility for Equity, Interest-Rate and Credit Derivatives', published by Cambridge University Press in 2011, and was founding co-editor-in-chief of the SIAM Journal on Financial Mathematics, from 2009-2015. He was Director of Graduate Studies for the Master in Finance program at the Bendheim Center for Finance from 2015-2018. He is the current Chair of the ORFE department. He was made a Fellow of the Society for Industrial and Applied Mathematics (SIAM) in 2020 for 'contributions to financial mathematics and asymptotic methods for stochastic control and differential games.'"    
+      link: https://sircar.princeton.edu/wp-content/uploads/2022/01/cryptomfg_v3.pdf
+    - speaker: Fayçal Drissi (University of Oxford - Oxford-Man Institute)
+      date: November 23, 2022
+      title: "Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision"
+      abstract: "We introduce a new comprehensive metric of predictable loss (PL) for liquidity providers in constant function automated market makers and derive an optimal liquidity provision strategy. PL compares the value of the LP's holdings in the liquidity pool (assuming no fee revenue) with that of a self-financing portfolio that replicates the LP's holdings and invests in a risk-free account. We provide closed-form formulae for PL, and show that the losses stem from two sources: the convexity cost, which depends on liquidity taking activity and the convexity of the pool's trading function; the opportunity cost, which is due to locking the LP's assets in the pool. For LPs in constant product market makers with concentrated liquidity, we derive a closed-form strategy that dynamically adjusts the range around the exchange rate as a function of market trend, volatility, and liquidity taking activity in the pool. We prove that the profitability of liquidity provision depends on the tradeoff between PL and fee income. Finally, we use Uniswap v3 data to show that LPs have traded at a significant loss, and to show that the out-of-sample performance of our strategy is considerably superior to the historical performance of LPs in the pool we consider. "
+      bio: "Fayçal Drissi is a PhD candidate at Université Paris 1 Panthéon-Sorbonne."    
+      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4273989
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
+      date: November 16, 2022
+      title: "An overview of Uniswap"
+      abstract: "An overview of the main features and innovations described in Uniswap v1, v2 and v3 whitepapers"
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
+      date: November 9, 2022
+      title: "A review of essential principles of decentralized finance"
+      bio: "Deborah Miori is a Dphil candidate at University of Oxford."     
+    
+
+ 
+
